@@ -118,10 +118,13 @@ body {
 /* Publication Content Styling */
 .publication-title {
     font-family: 'Google Sans', sans-serif !important;
-    font-weight: 700 !important; /* 加粗一点更有张力 */
+    font-weight: 700 !important;
     color: var(--text-primary) !important;
     margin-bottom: 1rem !important;
     line-height: 1.3 !important; /* 调整行高让多行标题更舒展 */
+    /* 新增以下两行 */
+    font-size: 2.5rem !important; /* 稍微缩小整体字号，避免过度拥挤 */
+    text-wrap: balance !important; /* 现代网页排版魔法：自动让多行标题的宽度保持对称和平衡 */
 }
 
 .publication-banner {
@@ -611,8 +614,8 @@ code {
   }
   
   .publication-title {
-    font-size: 2.5rem !important;
-    line-height: 1.2 !important;
+    font-size: 1.8rem !important; 
+    line-height: 1.3 !important;
     margin-bottom: 1.5rem !important;
   }
   
