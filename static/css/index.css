@@ -121,10 +121,9 @@ body {
     font-weight: 700 !important;
     color: var(--text-primary) !important;
     margin-bottom: 1rem !important;
-    line-height: 1.3 !important; /* 调整行高让多行标题更舒展 */
-    /* 新增以下两行 */
-    font-size: 2.5rem !important; /* 稍微缩小整体字号，避免过度拥挤 */
-    text-wrap: balance !important; /* 现代网页排版魔法：自动让多行标题的宽度保持对称和平衡 */
+    line-height: 1.3 !important;
+    font-size: 2.2rem !important; /* 字号稍微再缩小一点点，让每一行都能完整放下 */
+    /* 删除之前的 text-wrap: balance !important; */
 }
 
 .publication-banner {
