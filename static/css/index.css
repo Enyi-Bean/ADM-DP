@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
 
 /* Modern CSS Variables for consistent theming */
 :root {
@@ -31,7 +31,7 @@ html {
 }
 
 body {
-  font-family: 'Lato', 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Noto Sans', 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
   color: var(--text-primary);
   line-height: 1.6;
   font-size: 16px;
@@ -117,11 +117,11 @@ body {
 
 /* Publication Content Styling */
 .publication-title {
-    font-family: 'Lato', sans-serif !important;
-    font-weight: 500 !important; /* Lighter font weight */
+    font-family: 'Google Sans', sans-serif !important;
+    font-weight: 700 !important; /* 加粗一点更有张力 */
     color: var(--text-primary) !important;
-    margin-bottom: 1rem !important; /* Reduced margin */
-    line-height: 1.2 !important; /* Slightly increased line-height for multi-line title */
+    margin-bottom: 1rem !important;
+    line-height: 1.3 !important; /* 调整行高让多行标题更舒展 */
 }
 
 .publication-banner {
