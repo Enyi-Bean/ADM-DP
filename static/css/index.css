@@ -160,7 +160,7 @@ body {
     font-family: 'Noto Sans', sans-serif !important; /* Use Noto Sans for institution */
     font-size: 1rem; /* Smaller size */
     color: var(--text-secondary); /* A slightly lighter color */
-    margin-top: -1rem; /* Bring it closer to authors */
+    margin-top: -1.2rem; /* Bring it closer to authors */
     margin-bottom: 1rem;
 }
 
